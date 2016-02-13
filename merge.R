@@ -28,7 +28,7 @@ colnames(d) = "X0024_" + colnames(d)
 # #merge rows
 # mega_2 = merge_rows_by_name(mega, )
 
-mega_2 = merge_datasets2(mega, d)
+mega_2 = merge_datasets2(megadataset, d)
 
 # write to mega -----------------------------------------------------------
 write_mega(mega_2, filename = "inst/extdata/megadataset.csv")
