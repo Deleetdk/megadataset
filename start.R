@@ -1,6 +1,6 @@
 #libs
 library(pacman)
-p_load(devtools, roxygen2, stringr, kirkegaard)
+p_load(devtools, roxygen2, stringr, kirkegaard, megadataset)
 
 try({setwd("./megadataset")}, silent = T) #if this fails, it probably means we are already in the right dir
 
@@ -9,10 +9,6 @@ try({setwd("./megadataset")}, silent = T) #if this fails, it probably means we a
 #megadata
 megadataset = read.csv("inst/extdata/megadataset.csv", sep = ";", row.names = 1, encoding = "UTF-8")
 devtools::use_data(megadataset, overwrite = T)
-
-#abbreviations
-# abbreviations = read.csv("inst/extdata/abbreviations.csv", sep = "\t", header = T, stringsAsFactors = F, encoding = "UTF-8")
-# devtools::use_data(abbreviations, overwrite = T)
 
 
 # make documentation ------------------------------------------------------

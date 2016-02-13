@@ -49,6 +49,7 @@ Belgium (fl);BEL_FL
 Belgium (fI);BEL_FL
 Belgium Netherl;BEL_FL
 Belgium Flemish;BEL_FL
+Belgium Dutch;BEL_FL
 Belgium (fr);BEL_FR
 Belgium French;BEL_FR
 Flemish Community (Belgium);BEL_FR
@@ -114,7 +115,7 @@ Bulgarien;BGR
 Burkina Faso;BFA
 Burkina Faso (ex Alto Volta);BFA
 Burundi;BDI
-C�te d'Ivoire;CIV
+Cote d'Ivoire;CIV
 Costa d'Avorio;CIV
 Cote d'Ivoire;CIV
 Cote dIvoire;CIV
@@ -146,6 +147,7 @@ Canada (Ontario);CAN_ON
 Canada (Prince Edward Island);CAN_PE
 Canada (Quebec);CAN_QC
 Canada French;CAN_QC
+Canada, french;CAN_QC
 Canada (Saskatchewan);CAN_SK
 Canada (Yukon);CAN_YT
 Canada (Manitoba);CAN_MB
@@ -223,6 +225,7 @@ Congo Republikken;COG
 Republic of the Congo;COG
 Congo, Republic of;COG
 Congo, Rep.;COG
+Congo Rep.;COG
 Congo (Brazzaville);COG
 Congo, Republic of the;COG
 Congo (K);COD
@@ -237,6 +240,7 @@ Congo (Democratic Republic of the);COD
 Congo the Democratic Republic of the;COD
 Congo, The Democratic Republic of;COD
 Congo, Dem. Rep.;COD
+Congo Dem. Rep.;COD
 Congo, Democratic R.;COD
 Congo Democratic Republic of the;COD
 Congo, Democratic Republic of the;COD
@@ -328,9 +332,9 @@ Georgien;GEO
 Germany;DEU
 Germania;DEU
 Tyskland;DEU
-W. Germany;DEU-W
-West Germany;DEU-W
-Germany, West;DEU-W
+W. Germany;DEU_W
+West Germany;DEU_W
+Germany, West;DEU_W
 East Germany;DDR
 Germany, East;DDR
 E. Germany;DDR
@@ -419,6 +423,7 @@ Indonesia;IDN
 Indonesien;IDN
 Iran;IRN
 Iran Islamic Republic of;IRN
+Iran Islamic Rep.;IRN
 Iran, Islamic Rep.;IRN
 Iran (Islamic Republic of);IRN
 Iran Repubblica islamica dell';IRN
@@ -447,6 +452,7 @@ Kiribati;KIR
 Kosovo;KSV
 North Korea;PRK
 Korea Democratic People's Republic of;PRK
+Korea Dem. Rep.;PRK
 Korea, Dem. Rep.;PRK
 N. Korea;PRK
 Korea North;PRK
@@ -571,12 +577,13 @@ Veracruz;MEX_VER
 Yucatán;MEX_YUC
 Yucatan;MEX_YUC
 Zacatecas;MEX_ZAC
+Micronesia;FSM
 Micronesia, Federated States of;FSM
 Micronesia (Federated States of);FSM
 Micronesia Federated States of;FSM
-Micronesia;FSM
 Federated States of Micronesia;FSM
 Micronesia, Fed. Sts.;FSM
+Micronesia Fed. Sts.;
 Moldova;MDA
 Moldova Rep.;MDA
 Moldova, Republic of;MDA
@@ -743,7 +750,8 @@ Sydafrika;ZAF
 Soer-Afrika;ZAF
 Sud Africa;ZAF
 S. Africa;ZAF
-South Africa white;ZAFW
+South Africa white;ZAF_W
+South Africa, White;ZAF_W
 South Georgia and the South Sandwich Islands;SGS
 South Sudan;SSD
 Spain;ESP
@@ -765,8 +773,10 @@ Svizzera;CHE
 Schweiz;CHE
 Sveits;CHE
 Svejts;CHE
-Switzerland French;CHEF
-Switzerland German;CHED
+Switzerland French;CHE_FR
+Switzerland, French;CHE_FR
+Switzerland German;CHE_DE
+Switzerland, German;CHE_DE
 Syria;SYR
 Siria;SYR
 Syrien;SYR
@@ -848,6 +858,7 @@ District of Columbia;USA_DC
 Florida;USA_FL
 Georgia (US);USA_GA
 Georgia (USA);USA_GA
+Georgia, USA;USA_GA
 Hawaii;USA_HI
 Idaho;USA_ID
 Illinois;USA_IL
@@ -929,6 +940,7 @@ Yugoslavia;YUG
 Jugoslavien;YUG
 Former Yugoslavia;YUG
 Yugoslavia2;YU2
+Former Yugoslavia2;YU2
 Jugoslavien Forbundsrepublikken;YU2
 Jugoslavien, Forbundsrepublikken;YU2
 Zambia;ZMB

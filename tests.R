@@ -1,5 +1,5 @@
 library(pacman)
-
+p_load(megadataset, kirkegaard)
 
 # as_abbrev ---------------------------------------------------------------
 
