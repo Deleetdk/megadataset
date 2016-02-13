@@ -1,7 +1,7 @@
 Package: megadataset
 Type: Package
 Title: Worldwide data on countries and intra-country units
-Version: 0.1.4
+Version: 2016-02-13
 Author: Emil O. W. Kirkegaard
 Maintainer: Emil O. W. Kirkegaard <emil@emilkirkegaard.dk>
 Description: This is a data package that contains a very large collection of
