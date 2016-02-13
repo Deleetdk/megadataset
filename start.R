@@ -1,7 +1,34 @@
-library(devtools)
+#libs
+library(pacman)
+p_load(devtools, roxygen2, stringr, kirkegaard)
+
+try({setwd("./megadataset")}, silent = T) #if this fails, it probably means we are already in the right dir
 
 # save data files ---------------------------------------------------------
 
+#megadata
 megadataset = read.csv("inst/extdata/megadataset.csv", sep = "\t", row.names = 1, encoding = "UTF-8")
 devtools::use_data(megadataset, overwrite = T)
 
+#abbreviations
+# abbreviations = read.csv("inst/extdata/abbreviations.csv", sep = "\t", header = T, stringsAsFactors = F, encoding = "UTF-8")
+# devtools::use_data(abbreviations, overwrite = T)
+
+
+# make documentation ------------------------------------------------------
+document()
+
+#install
+setwd("..")
+install("megadataset")
+
+#load
+library(megadataset)
+
+#go back
+try({setwd("./megadataset")}, silent = T) #if this fails, it probably means we are already in the right dir
+
+# tests -------------------------------------------------------------------
+source("tests.R")
+
+message("DONE! If you see this, there were probably no errors.")

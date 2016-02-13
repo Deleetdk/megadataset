@@ -52,3 +52,6 @@ data/.~lock.Megadataset.xlsx#
 .Rbuildignore
 data/.~lock.abbreviations.csv#
 .Rproj.user
+inst/extdata/.~lock.abbreviations.csv#
+.Rhistory
+inst/extdata/.~lock.sources.csv#

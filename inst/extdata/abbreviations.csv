@@ -48,10 +48,10 @@ Belgia	BEL
 Belgium (fl)	BEL_FL
 Belgium (fI)	BEL_FL
 Belgium Netherl	BEL_FL
+Belgium Flemish	BEL_FL
 Belgium (fr)	BEL_FR
 Belgium French	BEL_FR
 Flemish Community (Belgium)	BEL_FR
-Belgium Flemish	BEL_FR
 Belize	BLZ
 Benin	BEN
 Benin (ex Dahomey)	BEN
@@ -376,45 +376,45 @@ Iceland	ISL
 Island	ISL
 India	IND
 Indien	IND
-Andhra Pradesh	IND_AP 
-Arunachal Pradesh	IND_AR 
-Assam	IND_AS 
-Bihar	IND_BR 
-Chhattisgarh	IND_CT 
-Goa	IND_GA 
-Gujarat	IND_GJ 
-Haryana	IND_HR 
-Himachal Pradesh	IND_HP 
-Him. Prad.	IND_HP 
-Hima. Prad., India	IND_HP 
-Jammu and Kashmir	IND_JK 
-Jharkhand	IND_JH 
-Karnataka	IND_KA 
-Kerala	IND_KL 
-Madhya Pradesh	IND_MP 
-Maharashtra	IND_MH 
-Manipur	IND_MN 
-Meghalaya	IND_ML 
-Mizoram	IND_MZ 
-Nagaland	IND_NL 
-Odisha	IND_OR 
-Punjab	IND_PB 
-Rajasthan	IND_RJ 
-Sikkim	IND_SK 
-Tamil Nadu	IND_TN 
-Tamil Nadu, India	IND_TN 
-Telangana	IND_TG 
-Tripura	IND_TR 
-Uttarakhand	IND_UT 
-Uttar Pradesh	IND_UP 
-West Bengal	IND_WB 
-Andaman and Nicobar Islands	IND_AN 
-Chandigarh	IND_CH 
-Dadra and Nagar Haveli	IND_DN 
-Daman and Diu	IND_DD 
-Delhi	IND_DL 
-Lakshadweep	IND_LD 
-Puducherry	IND_PY 
+Andhra Pradesh	IND_AP
+Arunachal Pradesh	IND_AR
+Assam	IND_AS
+Bihar	IND_BR
+Chhattisgarh	IND_CT
+Goa	IND_GA
+Gujarat	IND_GJ
+Haryana	IND_HR
+Himachal Pradesh	IND_HP
+Him. Prad.	IND_HP
+Hima. Prad., India	IND_HP
+Jammu and Kashmir	IND_JK
+Jharkhand	IND_JH
+Karnataka	IND_KA
+Kerala	IND_KL
+Madhya Pradesh	IND_MP
+Maharashtra	IND_MH
+Manipur	IND_MN
+Meghalaya	IND_ML
+Mizoram	IND_MZ
+Nagaland	IND_NL
+Odisha	IND_OR
+Punjab	IND_PB
+Rajasthan	IND_RJ
+Sikkim	IND_SK
+Tamil Nadu	IND_TN
+Tamil Nadu, India	IND_TN
+Telangana	IND_TG
+Tripura	IND_TR
+Uttarakhand	IND_UT
+Uttar Pradesh	IND_UP
+West Bengal	IND_WB
+Andaman and Nicobar Islands	IND_AN
+Chandigarh	IND_CH
+Dadra and Nagar Haveli	IND_DN
+Daman and Diu	IND_DD
+Delhi	IND_DL
+Lakshadweep	IND_LD
+Puducherry	IND_PY
 Indonesia	IDN
 Indonesien	IDN
 Iran	IRN
@@ -814,8 +814,8 @@ United Arab Emirates	ARE
 United Arab Emirates (U.A.E.)	ARE
 Un. Arab E.	ARE
 UAE	ARE
-Dubai (UAE)	ARE
-Dubai, UAE	ARE
+Dubai (UAE)	ARE_DU
+Dubai, UAE	ARE_DU
 Forenede Arabiske Emirater	ARE
 United Kingdom	GBR
 Regno unito	GBR
