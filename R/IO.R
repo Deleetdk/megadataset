@@ -14,7 +14,7 @@ as_abbrev2 = function(x, georgia = "country", abbrev = NA){
   #use built in?
   if (is.na(abbrev)) {
     #get dictionary
-    abbreviations = read.csv("inst/extdata/abbreviations.csv", sep="\t", encoding = "UTF-8", stringsAsFactors = F)
+    abbreviations = read.csv("inst/extdata/abbreviations.csv", sep=";", encoding = "UTF-8", stringsAsFactors = F)
   } else {
     abbreviations = abbrev
   }
@@ -50,7 +50,7 @@ as_long2 = function(x, abbrev = NA) {
   #use built in?
   if (is.na(abbrev)) {
     #get dictionary
-    abbreviations = read.csv("inst/extdata/abbreviations.csv", sep="\t", encoding = "UTF-8", stringsAsFactors = F)
+    abbreviations = read.csv("inst/extdata/abbreviations.csv", sep=";", encoding = "UTF-8", stringsAsFactors = F)
   } else {
     abbreviations = abbrev
   }
@@ -75,6 +75,6 @@ as_long2 = function(x, abbrev = NA) {
 #' @examples
 #' get_abbrev()
 get_abbrev2 = function() {
-  abbreviations = read.csv("inst/extdata/abbreviations.csv", sep = "\t", header = T, stringsAsFactors = F, encoding = "UTF-8")
+  abbreviations = read.csv("inst/extdata/abbreviations.csv", sep = ";", header = T, stringsAsFactors = F, encoding = "UTF-8")
   abbreviations
 }

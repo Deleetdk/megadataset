@@ -7,7 +7,7 @@ try({setwd("./megadataset")}, silent = T) #if this fails, it probably means we a
 # save data files ---------------------------------------------------------
 
 #megadata
-megadataset = read.csv("inst/extdata/megadataset.csv", sep = "\t", row.names = 1, encoding = "UTF-8")
+megadataset = read.csv("inst/extdata/megadataset.csv", sep = ";", row.names = 1, encoding = "UTF-8")
 devtools::use_data(megadataset, overwrite = T)
 
 #abbreviations
