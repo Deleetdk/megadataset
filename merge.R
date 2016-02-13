@@ -2,9 +2,10 @@
 
 #load from clipboard
 d = read.delim("clipboard")
+str(d)
 
 #names
-d$abbrev = as_abbrev2(d$Names)
+d$abbrev = as_abbrev2(d$Country)
 
 #subset by missing names
 d = d[!is.na(d$abbrev), ]
@@ -12,10 +13,10 @@ d = d[!is.na(d$abbrev), ]
 #rownames
 rownames(d) = d$abbrev
 d$abbrev = NULL
-d$Names = NULL
+d$Country = NULL
 
 #colnames
-colnames(d) = "X0024_" + colnames(d)
+colnames(d) = "X0025_" + colnames(d)
 
 #merge rows
 #useful when an error has been found and two units have been given the same abbreviation
