@@ -46,3 +46,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 data/.~lock.Megadataset.xlsx#
+
+#rRpoj
+.Rproj*
+.Rbuildignore
+data/.~lock.abbreviations.csv#
+.Rproj.user
