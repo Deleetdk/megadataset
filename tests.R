@@ -4,19 +4,19 @@ library(pacman)
 # as_abbrev ---------------------------------------------------------------
 
 stopifnot({
-  as_abbrev(c("Denmark", "USA", "India", "Thailand", "Russia", "Korea, South")) == c("DNK", "USA", "IND", "THA", "RUS", "KOR")
+  as_abbrev2(c("Denmark", "USA", "India", "Thailand", "Russia", "Korea, South")) == c("DNK", "USA", "IND", "THA", "RUS", "KOR")
 })
 
 
 # as long -----------------------------------------------------------------
 
 stopifnot({
-  as_long(c("DNK", "USA", "IND", "THA", "RUS", "KOR")) == c("Denmark", "United States", "India", "Thailand", "Russia", "South Korea")
+  as_long2(c("DNK", "USA", "IND", "THA", "RUS", "KOR")) == c("Denmark", "United States", "India", "Thailand", "Russia", "South Korea")
 })
 
 
 # get_abbrev -------------------------------------------------------
 
 stopifnot({
-  is.data.frame(get_abbrev())
+  is.data.frame(get_abbrev2())
 })

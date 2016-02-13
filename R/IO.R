@@ -7,7 +7,7 @@
 #' @export
 #' @examples
 #' as_abbrev(c("Denmark", "USA", "India", "Thailand", "Russia", "Korea, South"))
-as_abbrev = function(x, georgia = "country", abbrev = NA){
+as_abbrev2 = function(x, georgia = "country", abbrev = NA){
   library(stringr)
   library(magrittr)
 
@@ -43,7 +43,7 @@ as_abbrev = function(x, georgia = "country", abbrev = NA){
 #' @export
 #' @examples
 #' as_long(c("DNK", "USA", "IND", "THA", "RUS", "KOR"))
-as_long = function(x, abbrev = NA) {
+as_long2 = function(x, abbrev = NA) {
   library(stringr)
   library(magrittr)
 
@@ -74,7 +74,7 @@ as_long = function(x, abbrev = NA) {
 #' @export
 #' @examples
 #' get_abbrev()
-get_abbrev = function() {
+get_abbrev2 = function() {
   abbreviations = read.csv("inst/extdata/abbreviations.csv", sep = "\t", header = T, stringsAsFactors = F, encoding = "UTF-8")
   abbreviations
 }
